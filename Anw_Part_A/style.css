@@ -1,0 +1,63 @@
+.container {
+    /* background: rgb(246, 238, 14); */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px !important;
+}
+
+body h5 {
+    color: black;
+}
+
+.body-section {
+    background-color: rgb(227, 231, 231);
+}
+
+#submitbtn {
+    color: rgb(255, 255, 255);
+    background-color: #070807;
+    width: 20%;
+}
+
+#submitbtn:disabled {
+    cursor: not-allowed;
+}
+
+.form-group {
+    width: auto;
+}
+
+.calc-head {
+    color: #111326;
+}
+
+label {
+    font-weight: bold;
+    color: rgb(24, 14, 26);
+}
+
+#usercheck , #emailcheck, #passcheck, #confirm-passcheck{
+    color: red;
+}
+body {
+    background-color: #f0f0f0; /* Set your desired background color or use a background image */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    background-color: rgb(178 203 211); /* Set your container background color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.col-lg-6 {
+        flex: 0 0 70% !important;
+        max-width: 70% !important;
+}
+

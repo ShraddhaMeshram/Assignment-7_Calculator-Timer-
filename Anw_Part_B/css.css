@@ -1,0 +1,80 @@
+#stopwatch {
+  color: rgb(8, 48, 210);
+  font-style:normal;
+}
+
+.container {
+  height: 50%;
+  /* padding: 100px 100px; */
+  margin-top: 100px;
+  text-align: center;
+}
+
+#display {
+  width: 100%;
+  font-size: 100px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.buttons {
+  text-align: center;
+}
+
+#starttimer {
+  background-color: rgb(238, 234, 234);
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(9, 105, 240);
+  border: 3px solid goldenrod;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#starttimer:hover {
+  background-color: rgb(210, 220, 230);
+  color: black;
+  border: 3px solid black;
+}
+
+
+#stoptimer {
+  background-color: rgb(227, 90, 52);
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+  border: 3px solid goldenrod;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#stoptimer:hover {
+  background-color: rgb(237, 204, 176);
+  color: rgb(247, 6, 6);;
+  border: 3px solid black;
+}
+
+#reset {
+  background-color: rgb(237, 235, 195);
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(11, 11, 11);
+  border: 3px solid goldenrod;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#reset:hover {
+  background-color: rgb(243, 211, 107);
+  color: black;
+  border: 3px solid black;
+}
+
+.date-picker {
+  margin-top: 20px; /* Add spacing above the date picker */
+}
+
+#date-picker {
+  font-size: 1.5rem; /* Adjust font size for consistency */
+  padding: 10px; /* Add some padding for better appearance */
+}
